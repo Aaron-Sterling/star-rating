@@ -1,2 +1,2 @@
-# star-rating
-Star rating component for Ionic
+# Star Rating component
+Star rating component for Ionic. Coming soon.
