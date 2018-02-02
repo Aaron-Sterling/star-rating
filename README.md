@@ -35,6 +35,10 @@ In ```app.component.ts``` or in your page's module file, include:
 
 You must import ```StarRatingComponentModule``` after ```IonicModule```.
 
+## Output: newRating
+
+The component emits a number (from 1 to max number of stars, inclusive) when the user clicks one of the star icons.
+
 ## Optional Inputs
 
 #### initialRating
