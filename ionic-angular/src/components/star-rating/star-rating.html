@@ -1,0 +1,10 @@
+<!-- Template for Star Rating Component
+     by Aaron Sterling                  -->
+
+	 <span>
+		<ion-icon *ngIf="maxStars >= 1" tappable [name]="starIconName(0)"  [ngStyle]="iconColorExpression" (click)="emitRating(1)"></ion-icon>
+		<ion-icon *ngIf="maxStars >= 2" tappable [name]="starIconName(1)"  [ngStyle]="iconColorExpression" (click)="emitRating(2)"></ion-icon>
+		<ion-icon *ngIf="maxStars >= 3" tappable [name]="starIconName(2)"  [ngStyle]="iconColorExpression" (click)="emitRating(3)"></ion-icon>
+		<ion-icon *ngIf="maxStars >= 4" tappable [name]="starIconName(3)"  [ngStyle]="iconColorExpression" (click)="emitRating(4)"></ion-icon>
+		<ion-icon *ngIf="maxStars >= 5" tappable [name]="starIconName(4)"  [ngStyle]="iconColorExpression" (click)="emitRating(5)"></ion-icon>
+	</span>
