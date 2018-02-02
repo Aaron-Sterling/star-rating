@@ -2,6 +2,8 @@
 
 Star Rating component for Ionic-Angular. Show up to 5 clickable stars, so the user can set or change a rating, for example as part of a product review. Default is 5 gold stars. Options allow changing the number, color and type of icon used.
 
+Also see: [Ionic Demo](https://github.com/Aaron-Sterling/star-rating/tree/master/demo)
+
 ## Sample Usage
 
 Default Use in Template:
@@ -60,3 +62,5 @@ Name of ion-icon to use instead of filled-in stars. Default value is "ios-star".
 #### inactiveIconName
 
 Name of ion-icon to use instead of outlined stars. Default value is "ios-star-outline".
+
+Also see: [Ionic Demo](https://github.com/Aaron-Sterling/star-rating/tree/master/demo)
