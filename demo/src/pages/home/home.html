@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Star Rating demo
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+      <ion-item-divider>
+        Default configuration
+      </ion-item-divider>
+
+      <ion-item no-lines>
+        <star-rating (newRating)="setNewRatingDefault($event)" item-left></star-rating>
+        <span item-left>Current rating: {{currentRatingDefault}}</span>
+      </ion-item>
+
+
+      <ion-item-divider>
+          With options
+      </ion-item-divider>
+
+      <ion-item no-lines>
+        <star-rating (newRating)="setNewRatingOptions($event)" item-left
+                     [initialRating]="3"
+                     [maxStars]="4"
+                     [iconColor]="colorToUse"
+                     [activeIconName]="altActiveIcon"
+                     [inactiveIconName]="altInactiveIcon"></star-rating>
+        <span item-left>Current rating: {{currentRatingOptions}}</span>
+      </ion-item>
+    </ion-list>
+
+</ion-content>
